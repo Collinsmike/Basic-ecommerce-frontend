@@ -1,0 +1,46 @@
+.newsLetter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    background: linear-gradient(to bottom, wheat, transparent);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.newsLetter h1 {
+    color: gray;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.newsLetter p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.newsLetter form{
+    width: auto;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+}
+
+.newsLetter form input{
+    width: 300px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.newsLetter form button{
+    width: 100px;
+    border-radius: 20px;
+}

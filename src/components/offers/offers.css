@@ -1,0 +1,28 @@
+.offers {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, gold, transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.offers h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+
+.offers p {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.offers button {
+    border-radius: 20px;
+}

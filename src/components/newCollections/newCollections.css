@@ -1,0 +1,17 @@
+.new_collections h1{
+    position: relative;
+    margin-top: 100px;
+    transform: translateX(130px);
+    color: rgb(102, 75, 7);
+    font-size: 2rem;
+}
+
+.new_collections hr {
+    width: 200px;
+    height: 5px;
+    transform: translateX(130px);
+    background-color: orange;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}

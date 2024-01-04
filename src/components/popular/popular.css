@@ -1,0 +1,16 @@
+.popular h1{
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    color: rgb(102, 75, 7);
+}
+
+.popular hr {
+    width: 200px;
+    height: 5px;
+    margin: 10px auto 30px;
+    background-color: orange;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}

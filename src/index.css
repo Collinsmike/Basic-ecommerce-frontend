@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  font-weight: 500;
+  transition: .3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: orange;
+  transition: .5s ease;
+  min-width: 150px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  background: goldenrod;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+.cart_img {
+  width: auto;
+  height: 30px;
+}
+
+img {
+  width: 100%;
+  transition: .3s ease;
+}
